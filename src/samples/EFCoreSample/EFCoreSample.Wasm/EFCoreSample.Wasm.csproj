@@ -6,8 +6,7 @@
     <WasmHead>true</WasmHead>
     <DefineConstants>$(DefineConstants);__WASM__</DefineConstants>
     <NoWarn>NU1701</NoWarn>
-		<MonoWasmSDKUri>https://jenkins.mono-project.com/job/test-mono-mainline-wasm/873/label=ubuntu-1804-amd64/Azure/processDownloadRequest/873/ubuntu-1804-amd64/sdks/wasm/mono-wasm-817b4795403.zip</MonoWasmSDKUri>
-	</PropertyGroup>
+  </PropertyGroup>
   <ItemGroup>
     <Content Include="..\EFCoreSample.UWP\Assets\*.png" Link="Assets\%(FileName)%(Extension)" />
     <Content Include="Fonts\winjs-symbols.woff2" />
